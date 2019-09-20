@@ -1,0 +1,26 @@
+html {
+	font-family:calibri;
+	
+}
+
+h1{
+	margin-left:150px;
+	font-size:40px;
+}
+
+table {
+  background: #012B39;
+  border-radius: 10px;
+  border-collapse: collapse;
+
+}
+
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 7px 10px;
+}
+
+tr:hover {
+  background: #014055;
+}

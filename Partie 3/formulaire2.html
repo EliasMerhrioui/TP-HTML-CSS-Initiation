@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulaire 2</title>
+		<link rel="stylesheet" href="formulaire2.css" type="text/css" />
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<h1>FORMULAIRE 2 :</h1>
+			<form METHOD=POST ENCTYPE="text/plain" ACTION="mailto:emerhrio@condorcet93.fr">
+				<table>	
+					<tr>
+						<td>Civilité :</td>
+						<td>
+							<input type="radio" name="civilite" id="civilite_m" value="m" checked><label for="civilite_m">M.</label>
+							<input type="radio" name="civilite" id="civilite_mme" value="mme" ><label for="civilite_mme">Mme</label>
+							<input type="radio" name="civilite" id="civilite_mlle" value="mlle" >
+							<label for="civilite_mlle">Mlle</label>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label for="prenom">Entrez votre prenom :</td>
+						<td>
+							<input type="text" id="prenom" name="Prenom" value="" placeholder="Prénom"> </label>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label for="nom">Entrez votre nom:</td>
+						<td><input type="text" id="nom" name="Nom" value="" placeholder="Nom"></label></td>
+					</tr>
+					
+					<tr>
+						<td><label for="adresse">Entrez votre adresse :</td>
+						<td>
+							<input type="text" id="adresse" name="Adresse" value="" placeholder="Adresse">
+							</label>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label for="date">Date de naissance :</td>
+						<td>
+							<select>
+								<option value="Jour">Jour</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+									<option value="13">13</option>
+									<option value="14">14</option>
+									<option value="15">15</option>
+									<option value="16">16</option>
+									<option value="17">17</option>
+									<option value="18">18</option>
+									<option value="19">19</option>
+									<option value="20">20</option>
+									<option value="21">21</option>
+									<option value="22">22</option>
+									<option value="23">23</option>
+									<option value="24">24</option>
+									<option value="25">25</option>
+									<option value="26">26</option>
+									<option value="27">27</option>
+									<option value="28">28</option>
+									<option value="29">29</option>
+									<option value="30">30</option>
+									<option value="31">31</option>
+							</select>
+						
+							<select>
+								<option value="Mois">Mois</option>
+									<option value="Janvier">Janvier</option>
+									<option value="Février">Février</option>
+									<option value="Mars">Mars</option>
+									<option value="Avril">Avril</option>
+									<option value="Mai">Mai</option>
+									<option value="Juin">Juin</option>
+									<option value="Juillet">Juillet</option>
+									<option value="Aout">Aout</option>
+									<option value="Septembre">Septembre</option>
+									<option value="Octobre">Octobre</option>
+									<option value="Novembre">Novembre</option>
+									<option value="Décembre">Décembre</option>
+							</select>
+						
+							<select>
+								<option value="Années">Années</option>
+									<option value="2000">2000</option>
+									<option value="2001">2001</option>
+									<option value="2002">2002</option>
+									<option value="2003">2003</option>
+									<option value="2004">2004</option>
+									<option value="2005">2005</option>
+									<option value="2006">2006</option>
+									<option value="2007">2007</option>
+									<option value="2008">2008</option>
+									<option value="2009">2009</option>
+									<option value="2010">2010</option>
+									<option value="2011">2011</option>
+									<option value="2012">2012</option>
+									<option value="2013">2013</option>
+									<option value="2014">2014</option>
+									<option value="2015">2015</option>
+									<option value="2016">2016</option>
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
+							</select>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>Portez vous le meme nom que vos parents ? :</td>
+						<td>
+							<label for ="oui">Oui<input type="radio" id="oui" name="Meme nom que les parents?" value="Oui"> </label>
+							<label for ="non">Non<input type="radio" id="non" name="Meme nom que les parents?" value="Non"></label>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label for="autrenom">Si non, veuillez saisir leur nom :</td>
+						<td><input type="text" id="autrenom" name="L'autre nom des parents" value="">
+						</label></td>
+					</tr>
+				
+					<tr>
+						<td>Qu'elle est votre origine scolaire ? :</td>
+						<td>
+							<input list="originescolaire" name="Origine scolaire" placeholder="BAC...">
+							<datalist id="originescolaire">
+							  <option value="Bac STI">
+							  <option value="Bac STI2D">
+							  <option value="Bac S">
+							  <option value="Bac STMG">
+							  <option value="Bac Pro">
+							  <option value="Autre">
+							</datalist>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label for="num">Numéro de téléphone : </td>
+						<td>
+							<input type="text" id="num" name="Numero de telephone" value="" 
+							maxlength="10" placeholder="018556939">
+							 
+							</label>
+						</td>
+					</tr>
+				
+					<tr>
+						<td><label for="email">E-mail :</td>
+						<td><input type="email" id="email" name="Email" placeholder="test@gmail.com"></label></td>
+					</tr>
+				
+					<tr>
+						<td>Vos centre d'intéret :</td>
+						<td>
+							<label for="sport"><input type="checkbox" name="sport" id="sport" value="oui"> Le sport</label>
+							<br>
+							<label for="musique"><input type="checkbox" name="musique" id="musique" value="oui"> La musique </label>
+							<br>
+							<label for="cinema"><input type="checkbox" id="cinema" name="cinema" value="oui"> Le cinema</label>
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="2"><textarea name="Commentaire" rows="10" cols="78"></textarea></td>
+					</tr>
+				
+					<tr>
+						<td colspan="2"><input type="submit" value="Envoyer" style="width:570px"></td>
+					</tr>
+					
+					<tr>
+						<td colspan="2"><input type="reset" value="Effacer" style="width:570px"></td>
+					</tr>
+				</table>
+			</form> 
+	</body>
+
+
+</html>

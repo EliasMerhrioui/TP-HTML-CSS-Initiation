@@ -1,0 +1,105 @@
+html, 
+
+h1,h2,p {
+	font-family:calibri;
+}
+
+h1,h2 {
+	color:green;
+	font-size:45px;
+}
+
+h1 {
+	margin-top: 40px;
+	margin-bottom: 0px;
+	margin-right: 280px;
+	margin-left: 100px;
+	font-size:50px;
+}
+h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+
+p,ul {
+	margin-left: 65px;
+}
+
+h3 {
+	margin-left: 55px;
+}
+
+table {
+  margin-left:50px;
+}
+
+td,th {
+  border: 0px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+
+
+.imgSEPARATION {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 400px;
+	
+}
+
+.imgTITRE1 {
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: -100px;
+}
+
+.imgTETE {
+	height:130px;
+	float: right  ;
+	margin-top:-20px;
+	margin-bottom: 0px;
+	margin-right: -250px;
+	margin-left: 00px;
+}
+.txtH2EXP { 
+	 margin-top: 0px; 
+	 margin-bottom: 0px; 
+	 margin-right: 230px; 
+	 margin-left: 00px; 
+ } 
+
+.imgFIN {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 300px;
+	
+}
+
+
+
+
+.imgEXP1 { 
+	float: left; 
+	 margin-top: 10px; 
+	margin-bottom: 0px; 
+	 margin-right: 20px; 
+	 margin-left: 0px; 
+	 } 
+
+
+
+
+
+.center {
+	text-align:center;
+	}
+
+	

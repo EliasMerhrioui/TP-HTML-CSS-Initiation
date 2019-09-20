@@ -1,7 +1,5 @@
 html,
 
-/* remise a zero */
-
 header, footer, section, aside, nav, article {
 	display:block;
 	margin:0;
