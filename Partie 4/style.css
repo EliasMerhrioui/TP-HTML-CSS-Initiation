@@ -18,10 +18,7 @@ nav {
 	border : 1px solid #FF0000;	
 	margin: 10px 0px;
 }
-.hauteurFOOTER {
-	
-	height:415px;
-}
+
 section {
 	width:600px;
 	height:400px;
@@ -42,5 +39,5 @@ footer {
 	width:100%;
 	min-height:36px;
 	border: 1px solid yellow;
-	
+	clear:both;
 }
